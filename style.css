@@ -1,0 +1,110 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    background-color: black;
+}
+
+#container{
+    width: 1000px;
+    height: 550px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('ld-pg.jpg');
+    margin: 30px auto;
+}
+
+#calc{
+    width: 300px;
+    height: 450px;
+    background-color: burlywood;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 0;
+}
+
+#result{
+    height: 125px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding: 3px;
+    font-size: 15px;
+}
+
+#output{
+    text-align: right;
+    height: 105px;
+    margin-right: 20px;
+    padding: 20px; 
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#keyboard{
+    height: 325px;
+}
+
+.operator,
+.number,
+.empty{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number,
+.empty{
+    background-color: burlywood;
+}
+
+.operator{
+    background-color: #eaedef;
+}
+
+.operator,
+.number{
+    cursor: pointer;
+}
+
+.operator:active,
+.number:active{
+    font-size: 13px;
+}
+
+.operator:focus,
+.number:focus,
+.empty:focus{
+    outline: 0;
+}
+
+button:nth-child(4){
+    font-size: 25px;
+    background-color: aqua;
+}
+
+button:nth-child(8){
+    font-size: 25px;
+    background-color: blueviolet;
+}
+
+button:nth-child(12){
+    font-size: 25px;
+    background-color: azure;
+}
+
+button:nth-child(16){
+    font-size: 25px;
+    background-color: palegreen;
+}
+
+button:nth-child(16){
+    font-size: 25px;
+    background-color: sienna;
+}
